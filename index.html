@@ -3,41 +3,87 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="google-site-verification" content="K4XQT26RfS3vssQhqOaH72wep8hwbFgSHBOVJHIlEuc" />
-  <title>Tasbeeh</title>
-  <meta name="description" content="Tasbeeh is an offline dhikr counter for Android and iPhone with custom goals, daily history, and optional Google Drive backup on Android.">
+  <title>Tasbeeh | Dhikr Counter, Duaas &amp; Prayer Log</title>
+  <meta name="description" content="Tasbeeh is an offline dhikr counter for Android and iPhone with custom targets, Lap mode, activity history, saved duaas, and a prayer log.">
+  <link rel="canonical" href="https://englishaburrub-collab.github.io/tasbeeh-public/">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="app-icon.png" type="image/png">
+  <meta name="google-site-verification" content="K4XQT26RfS3vssQhqOaH72wep8hwbFgSHBOVJHIlEuc">
 </head>
 <body>
-  <main>
-    <h1>Tasbeeh</h1>
-
-    <p>
-      Tasbeeh is an offline dhikr counter for Android and iPhone. Create counters with your own phrases and targets, tap to record each repetition, and use Lap mode to track completed rounds. You can review your daily and monthly activity, set reminders, and export a local backup.
-    </p>
-
-    <h2>Optional Google Drive backup on Android</h2>
-    <p>
-      In Settings, you can sign in with Google to back up and restore your Tasbeeh data. Tasbeeh uses your Google account to authorize access and display the connected email address. Drive access is limited to Tasbeeh’s private app data folder.
-    </p>
-    <p>
-      When you choose Back up to Google Drive, Tasbeeh saves your counters, counts, daily history, and settings to that folder. When you choose Restore from Google Drive, Tasbeeh reads the latest backup and asks before replacing local data. Counting, reminders, and local backups work offline.
-    </p>
-
-    <h2>Legal</h2>
-    <ul>
-      <li>
-        <a href="privacy-policy.html">Privacy Policy</a>
-      </li>
-      <li>
-        <a href="terms.html">Terms of Service</a>
-      </li>
-    </ul>
-
-    <h2>Contact</h2>
-    <p>
-      Email:
-      <a href="mailto:english.aburrub@gmail.com">english.aburrub@gmail.com</a>
-    </p>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="/">Yaser Aburrub</a>
+      <nav class="site-nav" aria-label="App navigation">
+        <a href="/">All apps</a>
+        <a href="/WalletTrackerPublic/">Wallet Tracker</a>
+        <a href="/tasbeeh-public/" aria-current="page">Tasbeeh</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main" class="wrap">
+    <section class="product-hero" aria-labelledby="page-title">
+      <div>
+        <img class="app-icon" src="app-icon.png" width="60" height="60" alt="">
+        <h1 id="page-title">Tasbeeh</h1>
+        <p class="lead">Count dhikr offline on Android and iPhone. Set your own targets, track completed rounds, and keep your duaas and prayer log close at hand.</p>
+        <div class="actions">
+          <a class="button button-tasbeeh" href="#features">View features</a>
+          <a class="text-link" href="https://github.com/englishaburrub-collab/tasbeeh-public/issues">Get support</a>
+        </div>
+      </div>
+      <div class="art tasbeeh-art" aria-hidden="true">
+          <div class="dial">
+            <div class="dial-face">
+              <span class="preview-label" lang="ar" dir="rtl">سُبْحَانَ اللَّهِ</span>
+              <strong class="preview-value">24</strong>
+              <span class="preview-label">of 33</span>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="features" class="details" aria-labelledby="features-title">
+      <h2 id="features-title">Features</h2>
+      <div class="feature-grid">
+        <article class="feature">
+          <h3>Custom counters and Lap mode</h3>
+          <p>Create counters with your own phrases, targets, and colors. Tap to count, and use Lap mode to repeat a target and track completed rounds.</p>
+        </article>
+        <article class="feature">
+          <h3>History and reminders</h3>
+          <p>Review daily activity and monthly totals. Set a local reminder or choose a time to reset your counters each day.</p>
+        </article>
+        <article class="feature">
+          <h3>Duaas and prayer log</h3>
+          <p>Save and search duaas for offline reading. Record obligatory and voluntary prayers and review weekly and monthly summaries.</p>
+        </article>
+        <article class="feature">
+          <h3>Local and Google Drive backups</h3>
+          <p>Export and restore a JSON backup. On supported builds, you can connect Google Drive to sync your workspace and keep named restore points in the app’s private Drive folder.</p>
+        </article>
+      </div>
+    </section>
+    <section class="resources" aria-labelledby="resources-title">
+      <div>
+        <h2 id="resources-title">Support and policies</h2>
+      </div>
+      <div class="actions">
+          <a class="text-link" href="privacy-policy.html">Privacy Policy</a>
+          <a class="text-link" href="terms.html">Terms of Service</a>
+          <a class="text-link" href="https://github.com/englishaburrub-collab/tasbeeh-public/issues">Tasbeeh support</a>
+        </div>
+    </section>
   </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <a class="wordmark" href="/">Yaser Aburrub</a>
+      <nav aria-label="Footer">
+        <div class="actions">
+          <a class="text-link" href="/WalletTrackerPublic/">Explore Wallet Tracker</a>
+        </div>
+      </nav>
+    </div>
+  </footer>
 </body>
 </html>
